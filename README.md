@@ -3,7 +3,7 @@
 ## Tasks
 
 ### Back to front string
-Your task is to create function which gets string and symbols count. And it should return string 
+Create the function "backToFront" which gets a string and symbols count. And it should return a string. 
 For example:
 ```js
 backToFront('hello', 1); // ohelloo
@@ -13,7 +13,7 @@ backToFront('world', 20); // world
 ```
 
 ### Nearest number
-Write a function to find a value which is nearest to z from two given values (x and Y);
+Create the function "nearest" to find a value which is nearest to z from two given values (x and Y);
 For example:
 ```js
 nearest(100, 22, 122); // 122;
@@ -22,7 +22,7 @@ nearest(50, 22, 122); // 22;
 
 
 ### Remove array duplicates
-Write a function to remove all duplicated values from array;
+Create the function "removeDuplicate" to remove all duplicated values from array; do not use a set.
 For example:
 ```js
 removeDuplicate([1,2,3,2,3,1,1]); // [1,2,3]
