@@ -41,12 +41,10 @@ module.exports.nearest = function nearest(z, x, y) {
  * @returns {Array}
  */
 module.exports.removeDuplicate = function removeDuplicate(arr) {
-    const result = [];
     const duplicates = {};
+    const result = [];
   
-    for (let i = 0; i < arr.length; i++) {
-      const item = arr[i];
-  
+    for (const item of arr) {
       if (!duplicates[item]) {
         result.push(item);
         duplicates[item] = true;
