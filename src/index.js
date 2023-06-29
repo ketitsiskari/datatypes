@@ -8,10 +8,9 @@ module.exports.backToFront = function backToFront(str, symbolsCount) {
     const front = str.slice(-symbolsCount);
     if (front.length < symbolsCount) {
       return str;
-    } else if (front.length < symbolsCount) {
-      return str;
+    } else  {
+      return front + str + front;
     }
-    return front + str + front;
   };
 
 /**
